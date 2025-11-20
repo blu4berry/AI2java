@@ -19,11 +19,10 @@ public class MathOperations
         System.out.println("enter second number");
         int snumber=hi.nextInt();
         
-        System.out.println("sum is" +"/n"+(fnumber+snumber));
-        System.out.println("subtraction is" +"/n" +(fnumber-snumber));
-        System.out.println("multiplication is"+"/n" + (fnumber*snumber));
-        System.out.println("division is:" +"/n"+ (fnumber/snumber));
-        System.out.println("modulus is:" +"/n" + (fnumber%snumber));
+        System.out.println("sum is" +(fnumber+snumber)+"\n"+"difference is" +(fnumber-snumber)+"/n");
+        
+        
+        
         
         
         
