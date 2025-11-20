@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class git here.
+ * Write a description of class MathOperations here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class git
+public class MathOperations
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class git
+     * Constructor for objects of class MathOperations
      */
-    public git()
+    public MathOperations()
     {
         // initialise instance variables
         x = 0;
