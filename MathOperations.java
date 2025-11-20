@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * Write a description of class MathOperations here.
@@ -7,27 +8,25 @@
  */
 public class MathOperations
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    public static void main(String[]arg)
 
-    /**
-     * Constructor for objects of class MathOperations
-     */
-    public MathOperations()
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        Scanner hi=new Scanner(System.in);
+        
+        System.out.println("enter first number");
+        int fnumber=hi.nextInt();
+         
+        System.out.println("enter second number");
+        int snumber=hi.nextInt();
+        
+        System.out.println("sum is" +"/n"+(fnumber+snumber));
+        System.out.println("subtraction is" +"/n" +(fnumber-snumber));
+        System.out.println("multiplication is"+"/n" + (fnumber*snumber));
+        System.out.println("division is:" +"/n"+ (fnumber/snumber));
+        System.out.println("modulus is:" +"/n" + (fnumber%snumber));
+        
+        
+        
+    
     }
 }
