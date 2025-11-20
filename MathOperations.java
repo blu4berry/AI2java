@@ -19,7 +19,7 @@ public class MathOperations
         System.out.println("enter second number");
         int snumber=hi.nextInt();
         
-        System.out.println("sum is" +(fnumber+snumber)+"\n"+"difference is" +(fnumber-snumber)+"/n");
+        System.out.println("sum is:" +(fnumber+snumber)+"\n"+"difference is:" +(fnumber-snumber)+"\n");
         
         
         
